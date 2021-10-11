@@ -2,7 +2,7 @@
 By Oliver van Zwanenberg, Sophie Triantaphillidou, Alexandra Psarrou and Robin B. Jenkin
 School of Computer Science and Engineering, The University of Westminster, UK 
 
-# Introduction
+## Introduction
 The Natural Scene derived Spatial Frequency Response (NS-SFR) framework automatically extracts suitable step-edges from natural pictorial scenes and processes these edges via the slanted edge algorithm. This data is then used to estimate the system e-SFR (measured using the BSI ISO12233). This MATLAB code provides both parts of this proposed methodology and a MATLAB app to plot the results.
 
 For further detail, please see:
@@ -17,7 +17,7 @@ O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Camera 
 
 O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Edge Detection Techniques for Quantifying Spatial Imaging System Performance and Image Quality”, IEEE: New Trends in Image Restoration and Enhancement (NTIRE) workshop, in conjunction with Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
 
-# Requirements
+## Requirements
 MATLAB and the following MATLAB Toolboxes:
 
 •	Image Processing Toolbox
@@ -26,31 +26,31 @@ MATLAB and the following MATLAB Toolboxes:
 
 •	Statistics and Machine Learning Toolbox
 
-# SFRMAT4
+### SFRMAT4
 Sfrmat4 was written by P. D. Burns and is available at [1]. Throughout the provided MATLAB code, ‘sfrmat4.m’ is used to measure the e-SFR via the slanted edge method. Minor adjustments were made to the code to output edge angle, contrast and whether clipping is present. Also, error flags are placed in the code to catch and deselect unsuitable natural scene step-edges. 
 
-# Guide
-# 1. Part 1 – The NS-SFR extraction:
+## Guide
+### 1. Part 1 – The NS-SFR extraction:
 
 Running ‘Pt1_NSSFR_Extraction.m’ isolates step edges from a dataset of images. Before running the code, ensure the image dataset is stored in a folder and that all images are taken with the same camera system, lens, and aperture. 
 
 When initialising the code, you will first be prompted to state whether the dataset is either RAW or TIFF image format (see Figure 1). The TIFF format is a standard .tif file, whilst the RAW must be a .dng. The provided DNG image reader (imreadDNG.m) is based on reading a converted Nikon NEF RAW file [2]; therefore, the DNG image reader may need to be modified depending on the camera model used to capture the dataset.
   
-<img src="Images/Figure1.png" width="350"> Figure 1 – Select dataset file format
+<img src="Images/Figure1.png" width="350"> *Figure 1 – Select dataset file format*
   
 After selecting a file format, you will need to select the folder that the dataset resides. Then a second directory panel will appear for you to select a folder where the result (.mat) files will be saved, a file will be generated per image, therefore it is recommended to have a dedicated results folder directory. The code will then run through processing the images and measuring the NS-SFRs.
 
 Depending on the number of images, pixel resolution, and CPU cores available, this script may take time to run.
 
-# 2.	Part 2 – System e-SFR Estimation:
+### 2.	Part 2 – System e-SFR Estimation:
 
 To estimate the system e-SFR from the extracted NS-SFR data, run the ‘Pt2_ESFR_Estimation.m’ script. You will be prompted to select which e-SFR orientation you want to estimate, Horizontal & Vertical or Sagittal & Tangential, or both orientation groups (see Figure 2).  Note, the NS-SFRs are extracted in the Horizontal & Vertical orientation, thus, the conversion to Sagittal & Tangential will extend the computation time. 
 
-<img src="Images/Figure2.png" width="500"> Figure 2 – Select which orientations to estimate
+<img src="Images/Figure2.png" width="500"> *Figure 2 – Select which orientations to estimate*
 
 Select the directory containing the .mat files from ‘Pt1_NSSFR_Extraction.m’. 
 
 Depending on the orientation chosen, you will be asked to load ISO12233 Test chart data for the chosen orientations (see Figures 3 and 4). If ‘Yes’, choose the appropriately laid out .mat file; see Section 4 of this guide.
 
-<img src="Images/Figure3.png" width="350"> Figure 3 – Use Horizontal & Vertical test chart data?
-<img src="Images/Figure4.png" width="350"> Figure 4 – Use Sagittal & Tangential test chart data?
+<img src="Images/Figure3.png" width="350"> *Figure 3 – Use Horizontal & Vertical test chart data?*
+<img src="Images/Figure4.png" width="350"> *Figure 4 – Use Sagittal & Tangential test chart data?*
