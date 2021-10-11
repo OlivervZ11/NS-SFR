@@ -42,3 +42,15 @@ After selecting a file format, you will need to select the folder that the datas
 
 Depending on the number of images, pixel resolution, and CPU cores available, this script may take time to run.
 
+# 2.	Part 2 – System e-SFR Estimation:
+
+To estimate the system e-SFR from the extracted NS-SFR data, run the ‘Pt2_ESFR_Estimation.m’ script. You will be prompted to select which e-SFR orientation you want to estimate, Horizontal & Vertical or Sagittal & Tangential, or both orientation groups (see Figure 2).  Note, the NS-SFRs are extracted in the Horizontal & Vertical orientation, thus, the conversion to Sagittal & Tangential will extend the computation time. 
+
+<img src="Images/Figure2.png" width="350"> Figure 2 – Select which orientations to estimate
+
+Select the directory containing the .mat files from ‘Pt1_NSSFR_Extraction.m’. 
+
+Depending on the orientation chosen, you will be asked to load ISO12233 Test chart data for the chosen orientations (see Figures 3 and 4). If ‘Yes’, choose the appropriately laid out .mat file; see Section 4 of this guide.
+
+<img src="Images/Figure3.png" width="350"> Figure 3 – Use Horizontal & Vertical test chart data?
+<img src="Images/Figure4.png" width="350"> Figure 4 – Use Sagittal & Tangential test chart data?
