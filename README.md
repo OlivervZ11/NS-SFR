@@ -66,7 +66,7 @@ A MATLAB app user interface is provided to assist with visualising the data. To 
 Starting the app, a user interface Figure will open (see Figure 5). Next, click the load button and select the ‘eSFR_Estimation.mat’ file, the text under the button will inform you once loaded. A popup window will open when loading the data to ask for the camera’s pixel pitch (see Figure 6), only required for Sagittal & Tangential plots.
 
 <img src="Images/Figure5.png" width="650"> *Figure 5 – Load Tab of user interface*
-<img src="Images/Figure6.png" width="350"> *Figure 6 – Insert the camera pixel pitch*
+<img src="Images/Figure6.png" width="300"> *Figure 6 – Insert the camera pixel pitch*
 
 The three tabs in the user interface (see Figure 7-9) provide the plots of:
 
