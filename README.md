@@ -46,7 +46,7 @@ Depending on the number of images, pixel resolution, and CPU cores available, th
 
 To estimate the system e-SFR from the extracted NS-SFR data, run the ‘Pt2_ESFR_Estimation.m’ script. You will be prompted to select which e-SFR orientation you want to estimate, Horizontal & Vertical or Sagittal & Tangential, or both orientation groups (see Figure 2).  Note, the NS-SFRs are extracted in the Horizontal & Vertical orientation, thus, the conversion to Sagittal & Tangential will extend the computation time. 
 
-<img src="Images/Figure2.png" width="500"> *Figure 2 – Select which orientations to estimate*
+<img src="Images/Figure2.png" width="700"> *Figure 2 – Select which orientations to estimate*
 
 Select the directory containing the .mat files from ‘Pt1_NSSFR_Extraction.m’. 
 
