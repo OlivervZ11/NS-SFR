@@ -27,7 +27,7 @@ MATLAB and the following MATLAB Toolboxes:
 Sfrmat4 was written by P. D. Burns and is available at [1]. Throughout the provided MATLAB code, ‘sfrmat4.m’ is used to measure the e-SFR via the slanted edge method. Minor adjustments were made to the code to output edge angle, contrast and whether clipping is present. Also, error flags are placed in the code to catch and deselect unsuitable natural scene step-edges. 
 
 # Guide
-# 1. Part 1 – The NS-SFR extraction:
+** 1. Part 1 – The NS-SFR extraction: **
 
 Running ‘Pt1_NSSFR_Extraction.m’ isolates step edges from a dataset of images. Before running the code, ensure the image dataset is stored in a folder and that all images are taken with the same camera system, lens, and aperture. 
 
