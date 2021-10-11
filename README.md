@@ -36,8 +36,10 @@ Running ‘Pt1_NSSFR_Extraction.m’ isolates step edges from a dataset of image
 
 When initialising the code, you will first be prompted to state whether the dataset is either RAW or TIFF image format (see Figure 1). The TIFF format is a standard .tif file, whilst the RAW must be a .dng. The provided DNG image reader (imreadDNG.m) is based on reading a converted Nikon NEF RAW file [2]; therefore, the DNG image reader may need to be modified depending on the camera model used to capture the dataset.
 
+
 <img src="Images/Figure1.png" width="350">
 Figure 1 – Select dataset file format
+
 
 After selecting a file format, you will need to select the folder that the dataset resides. Then a second directory panel will appear for you to select a folder where the result (.mat) files will be saved, a file will be generated per image, therefore it is recommended to have a dedicated results folder directory. The code will then run through processing the images and measuring the NS-SFRs.
 
