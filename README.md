@@ -76,9 +76,14 @@ The three tabs in the user interface (see Figure 7-9) provide the plots of:
 
 In each tab, parameters can be adjusted, including the radial segment of the frame, the colour channel (if from RAW images), orientation and spatial frequency. In addition, if there is ISO12233 test chart data, the absolute estimation error can be displayed.
 
-<img src="Images/Figure7.png" width="650"> *Figure 7 – Multidimensional NS-SFR Plotting Tab*
-<img src="Images/Figure8.png" width="650"> *Figure 8 – Horizontal & Vertical Plotting Tab*
-<img src="Images/Figure9.png" width="650"> *Figure 9 – Sagittal & Tangential Plotting Tab*
+<img src="Images/Figure7.png" width="650"> 
+*Figure 7 – Multidimensional NS-SFR Plotting Tab*
+
+<img src="Images/Figure8.png" width="650"> 
+*Figure 8 – Horizontal & Vertical Plotting Tab*
+
+<img src="Images/Figure9.png" width="650"> 
+*Figure 9 – Sagittal & Tangential Plotting Tab*
 
 ### 4.	Measuring the ISO12233 Test Chart e-SFR:
 
