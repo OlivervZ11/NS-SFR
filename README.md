@@ -1,2 +1,2 @@
-# e-SFR-Estimation-from-natural-scene-Data
+# e-SFR-Estimation-from-Natural-Scene-Data
 The Natural Scene derived Spatial Frequency Response (NS-SFR) framework automatically extracts suitable step-edges from natural pictorial scenes and processes these edges via the slanted edge algorithm. This data is then used to estimate the system e-SFR (measured using the BSI ISO12233). This MATLAB code provides both parts of this proposed methodology and a MATLAB app to plot the results.
