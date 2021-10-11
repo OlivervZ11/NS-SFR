@@ -53,6 +53,7 @@ Select the directory containing the .mat files from ‘Pt1_NSSFR_Extraction.m’
 Depending on the orientation chosen, you will be asked to load ISO12233 Test chart data for the chosen orientations (see Figures 3 and 4). If ‘Yes’, choose the appropriately laid out .mat file; see Section 4 of this guide.
 
 <img src="Images/Figure3.png" width="350"> *Figure 3 – Use Horizontal & Vertical test chart data?*
+
 <img src="Images/Figure4.png" width="350"> *Figure 4 – Use Sagittal & Tangential test chart data?*
 
 The script will run and save a file named ‘eSFR_Estimation.mat’ into the selected results directory. 
