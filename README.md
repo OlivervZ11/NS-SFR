@@ -1,5 +1,6 @@
 # Natural Scene Derived Spatial Frequency Response – MATLAB Code
 By Oliver van Zwanenberg, Sophie Triantaphillidou, Alexandra Psarrou and Robin B. Jenkin
+
 School of Computer Science and Engineering, The University of Westminster, UK 
 
 ## Introduction
