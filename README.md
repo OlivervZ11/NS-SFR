@@ -60,6 +60,7 @@ The script will run and save a file named ‘eSFR_Estimation.mat’ into the sel
 ### 3.	Plotting the Results: 
 
 A MATLAB app user interface is provided to assist with visualising the data. To install the app in MATLAB, go to the App Tab in the top left, click Install App, and select ‘Plot_NSSFR_Data.mlappinstall’. The app ‘Plot NSSFR Data’ should now be in your Apps dropdown. 
+
 <img src="Images/Icon.png" width="100">
 
 Starting the app, a user interface Figure will open (see Figure 5). Next, click the load button and select the ‘eSFR_Estimation.mat’ file, the text under the button will inform you once loaded. A popup window will open when loading the data to ask for the camera’s pixel pitch (see Figure 6), only required for Sagittal & Tangential plots.
