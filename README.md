@@ -19,8 +19,11 @@ O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Edge De
 
 # Requirements
 MATLAB and the following MATLAB Toolboxes:
+
 •	Image Processing Toolbox
+
 •	Parallel Computing Toolbox
+
 •	Statistics and Machine Learning Toolbox
 
 # SFRMAT4
