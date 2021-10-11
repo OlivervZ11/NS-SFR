@@ -64,7 +64,7 @@ A MATLAB app user interface is provided to assist with visualising the data. To 
 
 Starting the app, a user interface Figure will open (see Figure 5). Next, click the load button and select the ‘eSFR_Estimation.mat’ file, the text under the button will inform you once loaded. A popup window will open when loading the data to ask for the camera’s pixel pitch (see Figure 6), only required for Sagittal & Tangential plots.
 
-<img src="Images/Figure5.png" width="650"> *Figure 5 – Load Tab of ‘Plot NSSFR Data’ user interface*
+<img src="Images/Figure5.png" width="650"> *Figure 5 – Load Tab of user interface*
 <img src="Images/Figure6.png" width="350"> *Figure 6 – Insert the camera pixel pitch*
 
 The three tabs in the user interface (see Figure 7-9) provide the plots of:
@@ -96,9 +96,13 @@ If you use this method in your research, please cite:
 O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Symposium Electronic Imaging (EI), 2022.  
 
 ## License:
+
 **Copyright (c) 2021, Oliver van Zwanenberg**
+
 All rights reserved.
 
 ## References: 
+
 [1] 	P. D. Burns, “sfrmat4 source code,” Burns Digital Imaging, 2020. Available: http://burnsdigitalimaging.com/software/sfrmat/ [Accessed 04 October 2020].
+
 [2] 	Steve Eddins, “Tips for reading a camera raw file into MATLAB”, Online, 2011. Available: https://blogs.mathworks.com/steve/2011/03/08/tips-for-reading-a-camera-raw-file-into-matlab/, [Accessed 08 September 2021].
