@@ -66,7 +66,7 @@ A MATLAB app user interface is provided to assist with visualising the data. To 
 
 Starting the app, a user interface Figure will open (see Figure 5). Next, click the load button and select the ‘eSFR_Estimation.mat’ file, the text under the button will inform you once loaded. A popup window will open when loading the data to ask for the camera’s pixel pitch (see Figure 6), only required for Sagittal & Tangential plots.
 
-<img src="Images/Figure5.png" width="750"> *Figure 5 – Load Tab of user interface*
+<img src="Images/Figure5.png" width="850"> *Figure 5 – Load Tab of user interface*
 
 <img src="Images/Figure6.png" width="300"> *Figure 6 – Insert the camera pixel pitch*
 
@@ -78,11 +78,11 @@ The three tabs in the user interface (see Figure 7-9) provide the plots of:
 
 In each tab, parameters can be adjusted, including the radial segment of the frame, the colour channel (if from RAW images), orientation and spatial frequency. In addition, if there is ISO12233 test chart data, the absolute estimation error can be displayed.
 
-<img src="Images/Figure7.png" width="750"> *Figure 7 – Multidimensional NS-SFR Plotting Tab*
+<img src="Images/Figure7.png" width="850"> *Figure 7 – Multidimensional NS-SFR Plotting Tab*
 
-<img src="Images/Figure8.png" width="750"> *Figure 8 – Horizontal & Vertical Plotting Tab*
+<img src="Images/Figure8.png" width="850"> *Figure 8 – Horizontal & Vertical Plotting Tab*
 
-<img src="Images/Figure9.png" width="750"> *Figure 9 – Sagittal & Tangential Plotting Tab*
+<img src="Images/Figure9.png" width="850"> *Figure 9 – Sagittal & Tangential Plotting Tab*
 
 ### 4.	Measuring the ISO12233 Test Chart e-SFR:
 
