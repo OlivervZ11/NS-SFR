@@ -99,6 +99,7 @@ The three datasets used in our publications
 
 ## Citation: 
 If you use this method in your research, please cite:
+
 O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Symposium Electronic Imaging (EI), 2022. **(Pending Publication)**
 
 ## License:
