@@ -8,15 +8,16 @@ The Natural Scene derived Spatial Frequency Response (NS-SFR) framework automati
 
 For further detail, please see:
 
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Symposium Electronic Imaging (EI), 2022. **(Pending Publication)**
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Volume 65, Number 6, November 2021, pp. 60402-1-60402-16(16). https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.6.060402
 
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Analysis of Natural Scene Derived Spatial Frequency Responses for Estimating Camera ISO12233 Slanted-Edge Performance” Journal of Imaging Science and Technology (JIST), Symposium Electronic Imaging (EI), 2022. **(Pending Publication)**
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Analysis of Natural Scene Derived Spatial Frequency Responses for Estimating Camera ISO12233 Slanted-Edge Performance” Journal of Imaging Science and Technology (JIST), Volume 65, Number 6, November 2021, pp. 60405-1-60405-12(12). https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.6.060405
 
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Natural Scene Derived Camera Edge Spatial Frequency Response for Autonomous Vision Systems” IS&T/IoP London Imaging Meeting, 2021.  
 
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Camera System Performance Derived from Natural Scenes” IS&T International Symposium on Electronic Imaging: Image Quality and System Performance XVII: Displaying, Processing, Hardcopy, and Applications, 2020.
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Natural Scene Derived Camera Edge Spatial Frequency Response for Autonomous Vision Systems” IS&T/IoP London Imaging Meeting, 2021. https://doi.org/10.2352/issn.2694-118X.2021.LIM-88
 
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Edge Detection Techniques for Quantifying Spatial Imaging System Performance and Image Quality”, IEEE: New Trends in Image Restoration and Enhancement (NTIRE) workshop, in conjunction with Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Camera System Performance Derived from Natural Scenes” IS&T International Symposium on Electronic Imaging: Image Quality and System Performance XVII: Displaying, Processing, Hardcopy, and Applications, 2020. https://doi.org/10.2352/ISSN.2470-1173.2020.9.IQSP-241
+
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Edge Detection Techniques for Quantifying Spatial Imaging System Performance and Image Quality”, IEEE: New Trends in Image Restoration and Enhancement (NTIRE) workshop, in conjunction with Conference on Computer Vision and Pattern Recognition (CVPR), 2019. https://doi.org/10.1109/CVPRW.2019.00238
 
 ## Requirements
 MATLAB and the following MATLAB Toolboxes:
@@ -99,12 +100,11 @@ The three datasets used in our publications
 
 ## Citation: 
 If you use this method in your research, please cite:
-
-O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Symposium Electronic Imaging (EI), 2022. **(Pending Publication)**
+O. van Zwanenberg, S. Triantaphillidou, R. B. Jenkin, and A. Psarrou, “Estimation of ISO12233 Edge Spatial Frequency Response from Natural Scene Derived Step-Edge Data” Journal of Imaging Science and Technology (JIST), Volume 65, Number 6, November 2021, pp. 60402-1-60402-16(16). https://doi.org/10.2352/J.ImagingSci.Technol.2021.65.6.060402
 
 ## License:
 
-**Copyright (c) 2021, Oliver van Zwanenberg**
+**Copyright (c) 2022, Oliver van Zwanenberg**
 
 All rights reserved.
 
